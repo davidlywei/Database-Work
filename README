@@ -1,0 +1,15 @@
+
+Required:
+	- Oracle JDK 1.8.0.111+
+
+JavaFX on Intellij
+	- Nothing extra needed
+
+JAVAFX on Eclipse
+	- Right click on the created project, and select Build Path->Configure Build Path
+	- Ensure that the ORACLE JDK is selected in the libraries tab
+	- Click on the library entry, select Access Rules, and click edit on the right.
+	- Add an entry with Resolution: Accessible, and Rule Pattern: javafx/**
+	- Click on Add External JARs, and add jfxrt.jar (<JDK_LOCATIOM>/jre/lib/ext/jfxrt.jar
+
+
